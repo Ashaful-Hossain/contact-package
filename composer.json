@@ -1,0 +1,27 @@
+{
+    "name": "ashraf/ashrafcontact",
+    "description": "This Contact Package send a message in email",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ashraf\\AshrafContact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ashraf",
+            "email": "miazi.ashraf@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "dont-discover": [],
+            "providers": [
+                "Ashraf\\AshrafContact\\ContactServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
